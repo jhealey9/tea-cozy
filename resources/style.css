@@ -5,11 +5,14 @@ body {
   background-color: black;
   font-size: 22px;
   text-align: center;
-  opacity: 0.9;
+  /* opacity: 0.9; */
+}
+
+div {
+  display: block;
 }
 
 header {
-  display: flex;
   width: 100%;
   position: fixed;
   z-index: 1;
@@ -27,7 +30,6 @@ header {
 nav {
   text-align: right;
   flex-grow: 1;
-  display: block;
 }
 
 nav span {
@@ -38,4 +40,34 @@ nav span {
 a {
   text-decoration: underline;
   color: seashell;
+}
+
+h2, h3, h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main-content {
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+}
+
+#mission.flex-container {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  padding-top: 70px;
+}
+
+#mission .text {
+  margin: auto;
+  background: black;
+  width: 100%
 }
