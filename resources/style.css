@@ -69,5 +69,29 @@ h2, h3, h4 {
 #mission .text {
   margin: auto;
   background: black;
-  width: 100%
+  width: 100%;
+}
+
+#featured {
+  margin: auto;
+  width: 1000px;
+  padding: 70px 0px;
+}
+
+.item {
+  padding: 5px;
+}
+
+.item img {
+  height: 200px;
+  width: 300px;
+  display: block;
+  margin: 10px;
+}
+
+.item span {
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
 }
