@@ -120,5 +120,15 @@ h2, h3, h4 {
   width: 300px;
   margin: 5px 20px;
   padding: 10px;
-  opacity: 1.0;
+  opacity: 1;
+}
+
+#contact {
+  height: 200px
+}
+
+footer {
+  text-align: left;
+  display: block;
+  padding-left: 20px;
 }
